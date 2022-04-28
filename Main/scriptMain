@@ -1,0 +1,17 @@
+function mouseOver () {
+    document.getElementById("project1img").src ="Imagenes/proyecto1B.svg";
+     
+   document.getElementById("project1img").style.width="80%";
+   document.getElementById("project1img").style.height = "100%";
+   document.getElementById("project1img").style.textAlign="center";
+
+};
+
+function mouseOut () {
+    document.getElementById("project1img").src ="Imagenes/proyecto1.png";
+   document.getElementById("project1img").style.width="80%";
+   document.getElementById("project1img").style.height = "100%";
+   document.getElementById("project1img").style.textAlign="center";
+
+  
+};
