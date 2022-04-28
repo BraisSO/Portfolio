@@ -234,9 +234,6 @@ footer>p>a>img {
 /*RESPONSIVE*/
 @media only screen and (max-width: 930px) {
 
-    body{
-     
-    }
     .contact_form {
         display: block;
         min-width: 93%;
