@@ -1,0 +1,113 @@
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario de contacto</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
+</head>
+
+
+<body>
+
+    <div id="menuNavegacion">
+        <span id="justify">
+            <button class="boton"> <a class="menuN" href="/Main/mainHTML.html">Portfolio</a></button>
+            <span class="menuN">|</span>
+            <button class="boton"> <a class="menuN" href="/About/about.html">About</a></button>
+        </span>
+    </div>
+
+
+    <div class="contact_form">
+
+        <div class="formulario">
+            <h1>Contact formulary</h1>
+
+            <form action="submeter-formulario.php" method="post">
+
+
+                <p>
+                    <label for="nombre" class="colocar_nombre">Name
+                        <span class="obligatorio">*</span>
+                    </label>
+                    <input type="text" name="introducir_nombre" id="nombre" required="obligatorio"
+                        placeholder="Write your name">
+                </p>
+
+                <p>
+                    <label for="email" class="colocar_email">Email
+                        <span class="obligatorio">*</span>
+                    </label>
+                    <input type="email" name="introducir_email" id="email" required="obligatorio"
+                        placeholder="Write your Email">
+                </p>
+
+                <p>
+                    <label for="telefone" class="colocar_telefono">Telephone
+                    </label>
+                    <input type="tel" name="introducir_telefono" id="telefono" placeholder="Write your phone number">
+                </p>
+
+                <p>
+                    <label for="asunto" class="colocar_asunto">Subject
+                        <span class="obligatorio">*</span>
+                    </label>
+                    <input type="text" name="introducir_asunto" id="assunto" required="obligatorio" placeholder="">
+                </p>
+
+                <p>
+                    <label for="mensaje" class="colocar_mensaje">Message
+                        <span class="obligatorio">*</span>
+                    </label>
+                    <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio"
+                        placeholder=""></textarea>
+                </p>
+
+                <button id="enviar" type="submit" name="enviar_formulario" id="enviar">
+                    <p>Enviar</p>
+                </button>
+
+                <p class="aviso">
+                    <span class="obligatorio"> * </span>required fields.
+                </p>
+
+            </form>
+        </div>
+    </div>
+
+    <div class="mapouter">
+        <div class="gmap_canvas"><iframe width="848" height="454" id="gmap_canvas"
+                src="https://maps.google.com/maps?q=SoftwareONE%20Spain,%20R%C3%BAa%20do%20Restollal,%2032,%20planta%205,%20oficina%20501,%2015702%20Santiago%20de%20Compostela,%20A%20Coru%C3%B1a&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+                href="https://putlocker-is.org"></a><br>
+        </div>
+    </div>
+
+    <div id="firmaFlex">
+        <div id="firmaBrais">
+            <pre>
+Brais Suárez Miguéns
+Intern
+Email: brais.suárez@softwareone.com
+SoftwareONE Spain</pre>
+
+            <img id="logo" src="/Contact/Imagenes/logo.png" alt="">
+        </div>
+        <div id="firmaSO">
+            <pre>
+C/ Restollal 32, Oficina 501, 5ª Planta
+15702, Santiago de Compostela
+España</pre>
+        </div>
+    </div>
+
+    <footer>
+        <p> © 2022 Author:Brais Suárez Miguéns. SoftwareOne Spain All rights reserved. </p>
+        <p><a href="https://es.linkedin.com/in/braissuarezmiguens"><img src="/Main/Imagenes/lk.png" alt=""></a></p>
+    </footer>
+
+
+</body>
+
+</html>
