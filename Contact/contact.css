@@ -238,12 +238,13 @@ footer>p>a>img {
         display: block;
         min-width: 93%;
         max-width: 93%;
+        margin-top: 0%;
+        
     }
 
     .contact_form>* {
         display: block;
         width: 100%;
-        
        
     }
 

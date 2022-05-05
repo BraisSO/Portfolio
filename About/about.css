@@ -177,17 +177,7 @@ footer>p>a>img {
 
 
 @media only screen and (max-width: 930px) {
-
-
-
-  #menuNavegacion {
-    display: block;
-    text-align: left;
-    justify-content: end;
-    margin-bottom: 3px;
-
-  }
-
+  
   .avatar-flip img {
     position: absolute;
     left: 0;
