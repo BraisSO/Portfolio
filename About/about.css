@@ -26,8 +26,13 @@ button {
 /*Perfil*/
 @import url(https://fonts.googleapis.com/css?family=Roboto:900,300);
 
+html {
+  height: 100%;
+}
+
 body {
   background-color: #f0f0f0;
+  height: 100%;
 }
 
 .container {
@@ -152,6 +157,9 @@ footer {
   text-align: right;
   justify-content: end;
   background-color: black;
+  position: absolute;
+  bottom: 0;
+
 
 }
 
@@ -177,7 +185,7 @@ footer>p>a>img {
 
 
 @media only screen and (max-width: 930px) {
-  
+
   .avatar-flip img {
     position: absolute;
     left: 0;
@@ -227,5 +235,10 @@ footer>p>a>img {
     border-radius: 6px;
     margin-bottom: 1%;
   }
+
+  footer{
+    position: relative;
+  }
+  
 
 }
